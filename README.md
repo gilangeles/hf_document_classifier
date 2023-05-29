@@ -6,7 +6,7 @@ run in your terminal:
 pip install git+https://github.com/gilangeles/hf_document_classifier
 ```
 ## How to use the package
-Use the code below as a template for using the package 
+Use the code below as a template for using the package
 
 ```
 from hf_document_classifier.classifier import HFDocumentClassifier
@@ -21,4 +21,4 @@ classifier.classify_text(
     ]
 )
 ```
-This is for the abstracting the instantiation and usage of __HuggingFace__ based document classifier.
+This is for abstracting the instantiation and usage of __HuggingFace__ based document classifier.
